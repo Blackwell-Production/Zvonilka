@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звонилка 3</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header class="top-app-bar" id="topBar">
+        <img src="icon.ico" alt="icon" width="32" height="32" style="border-radius: 8px;">
+        <span class="top-app-bar-title">Звонилка 3</span>
+        <button class="icon-button" id="themeToggle" aria-label="Переключить тему">
+            <span class="material-symbols-rounded" id="themeIcon">dark_mode</span>
+        </button>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="download-card reveal">
+                <img src="icon.ico" alt="Звонилка 3" class="app-icon">
+                <h1 class="app-name">Звонилка 3</h1>
+                <p class="app-version">Версия 3.0</p>
+                <p class="app-description">
+                    Мессенджер для общения и голосовых звонков по сети Radmin VPN.
+                    Простое подключение и удобный интерфейс.
+                </p>
+                <div class="feature-chips">
+                    <span class="chip">
+                        <span class="material-symbols-rounded">call</span>
+                        Голосовые звонки
+                    </span>
+                    <span class="chip">
+                        <span class="material-symbols-rounded">chat</span>
+                        Чат
+                    </span>
+                    <span class="chip">
+                        <span class="material-symbols-rounded">lan</span>
+                        Radmin VPN
+                    </span>
+                </div>
+                <a href="https://github.com/kloperaingolator-commits/zvonilka/releases/download/Zvon/Zvonilka3.exe" class="download-button">
+                    <span class="material-symbols-rounded">download</span>
+                    Скачать
+                </a>
+                <p class="file-size">Звонилка 3.exe</p>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title reveal">Возможности</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal reveal-delay-1">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">call</span>
+                    </div>
+                    <h3 class="feature-card-title">Голосовые звонки</h3>
+                    <p class="feature-card-text">
+                        Бесплатные голосовые звонки через Radmin VPN с низкой задержкостью
+                        и хорошим качеством звука.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-2">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">chat</span>
+                    </div>
+                    <h3 class="feature-card-title">Текстовый чат</h3>
+                    <p class="feature-card-text">
+                        Общайтесь текстовыми сообщениями в реальном времени.
+                        Быстрая доставка и простой интерфейс.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-3">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">emoji_emotions</span>
+                    </div>
+                    <h3 class="feature-card-title">Стикеры</h3>
+                    <p class="feature-card-text">
+                        Выражайте эмоции с помощью стикеров. Набор стикеров
+                        доступен прямо в чате.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-4">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">group</span>
+                    </div>
+                    <h3 class="feature-card-title">Групповые чаты</h3>
+                    <p class="feature-card-text">
+                        Создавайте групповые чаты для общения с друзьями и командой
+                        одновременно.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-5">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">attach_file</span>
+                    </div>
+                    <h3 class="feature-card-title">Файлы</h3>
+                    <p class="feature-card-text">
+                        Отправляйте файлы любого формата и размера напрямую
+                        через P2P-соединение Radmin VPN.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-6">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">shield</span>
+                    </div>
+                    <h3 class="feature-card-title">Безопасность</h3>
+                    <p class="feature-card-text">
+                        Прямое P2P-соединение без серверов. Ваши данные остаются
+                        между вами и собеседником.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-7">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">mic</span>
+                    </div>
+                    <h3 class="feature-card-title">Запись звонков</h3>
+                    <p class="feature-card-text">
+                        Записывайте голосовые звонки и сохраняйте их для последующего прослушивания.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-8">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">face</span>
+                    </div>
+                    <h3 class="feature-card-title">Аватарки</h3>
+                    <p class="feature-card-text">
+                        Настраивайте профиль с аватаркой и именем, чтобы друзья
+                        вас легко узнали.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal-delay-9">
+                    <div class="feature-card-icon">
+                        <span class="material-symbols-rounded">notifications</span>
+                    </div>
+                    <h3 class="feature-card-title">Уведомления</h3>
+                    <p class="feature-card-text">
+                        Получайте уведомления о входящих звонках и новых сообщениях,
+                        даже когда приложение свёрнуто.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="creators-section">
+            <h2 class="section-title reveal">Создатели</h2>
+            <div class="creators-grid">
+                <a href="https://steamcommunity.com/profiles/76561198788262010/" target="_blank" rel="noopener noreferrer" class="creator-card reveal reveal-delay-1">
+                    <img src="tenoych.png" alt="Tenoych" class="creator-avatar">
+                    <p class="creator-name">Tenoych</p>
+                    <p class="creator-role">Разработчик</p>
+                    <span class="material-symbols-rounded creator-link-icon">open_in_new</span>
+                </a>
+                <a href="https://steamcommunity.com/profiles/76561199636236471/" target="_blank" rel="noopener noreferrer" class="creator-card reveal reveal-delay-2">
+                    <img src="n8.png" alt="N8" class="creator-avatar">
+                    <p class="creator-name">N8</p>
+                    <p class="creator-role">Разработчик</p>
+                    <span class="material-symbols-rounded creator-link-icon">open_in_new</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="studio-section">
+            <h2 class="section-title reveal">Студия</h2>
+            <button class="studio-card reveal reveal-delay-1" id="studioCard">
+                <img src="Blackwell%20Production.png" alt="Blackwell Production" class="studio-logo">
+                <h3 class="studio-name">Blackwell Production</h3>
+                <p class="studio-tagline">
+                    Мы создаём мессенджеры, игры и программное обеспечение.
+                    Звонилка 3 — наш проект, сделанный с душой.
+                </p>
+                <div class="studio-chip">
+                    <span class="material-symbols-rounded">rocket_launch</span>
+                    С нами с 2026
+                    <span class="material-symbols-rounded studio-chip-more">chevron_right</span>
+                </div>
+            </button>
+        </section>
+    </main>
+
+    <div class="studio-overlay" id="studioOverlay">
+        <div class="studio-dialog" role="dialog" aria-modal="true" aria-label="О студии Blackwell Production">
+            <button class="icon-button studio-close" id="studioClose" aria-label="Закрыть">
+                <span class="material-symbols-rounded">close</span>
+            </button>
+            <img src="Blackwell%20Production.png" alt="Blackwell Production" class="studio-dialog-logo">
+            <h3 class="studio-dialog-name">Blackwell Production</h3>
+            <p class="studio-dialog-about">
+                Blackwell Production — группа людей-разработчиков, которые разрабатывают
+                приложения, модификации и многое другое. С нами с 2026 года.
+            </p>
+            <div class="studio-dialog-divider"></div>
+            <p class="studio-founders-label">Основатель</p>
+            <a href="https://steamcommunity.com/profiles/76561198788262010/" target="_blank" rel="noopener noreferrer" class="founder-link">
+                <img src="tenoych.png" alt="Tenoych" class="founder-avatar">
+                <span class="founder-name">Tenoych</span>
+                <span class="material-symbols-rounded founder-open">open_in_new</span>
+            </a>
+            <button class="studio-close-button" id="studioCloseBtn">Понятно</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <span class="material-symbols-rounded footer-icon">copyright</span>
+        Звонилка 3 &mdash; мессенджер на Radmin VPN. Сделано в Blackwell Production
+    </footer>
+
+    <div class="download-overlay" id="downloadOverlay">
+        <div class="download-dialog">
+            <div class="progress-ring-wrap" id="progressRingWrap">
+                <svg class="progress-ring" viewBox="0 0 120 120">
+                    <circle class="progress-ring-track" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring-fill" id="progressFill" cx="60" cy="60" r="54"></circle>
+                </svg>
+                <div class="progress-center">
+                    <span class="material-symbols-rounded" id="progressCenterIcon">download</span>
+                </div>
+            </div>
+            <div class="download-dialog-percent" id="progressPercent">0%</div>
+            <div class="download-dialog-text" id="downloadDialogText">Загрузка…</div>
+            <div class="download-dialog-file">Звонилка 3.exe</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
