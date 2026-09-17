@@ -37,7 +37,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
 // Download dialog animation
-const DOWNLOAD_URL = 'https://github.com/kloperaingolator-commits/zvonilka/releases/download/Zvon/Zvonilka3.exe';
+const DOWNLOAD_URL = 'https://github.com/Blackwell-Production/Zvonilka/releases/download/XGet/Zvonilka3.exe';
 const downloadButton = document.querySelector('.download-button');
 const overlay = document.getElementById('downloadOverlay');
 const ringWrap = document.getElementById('progressRingWrap');
